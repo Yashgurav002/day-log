@@ -18,7 +18,7 @@ Source: `PRD.md` v1.0 · App folder: repo root · Status: `[ ]` todo · `[~]` bu
 | T10 | Git log box per date + "copy command" button | F3 | Commits show up in the generated rows | [x] |
 | T11 | Generate bar: date range, Resolution toggle, Split into N days, loading and error states | F4 | Rows show in under 5 s; errors keep the notes | [x] |
 | T12 | Result table with editable cells | F6 | An edited cell is kept in the copy and after a reload | [~] |
-| T13 | Copy for Sheets + Copy as text buttons | F7, F8 | A paste into Google Sheets fills one row per task in the right columns | [~] |
+| T13 | Copy for Sheets + Copy as text buttons | F7, F8 | A paste into Google Sheets fills one row per task in the right columns | [x] |
 
 ## M2 — Live with the sample day (Mon 26 Oct)
 
