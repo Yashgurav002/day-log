@@ -55,7 +55,7 @@ Rules:
       ? 'one sentence per row: the problem and what fixed it ("Problem → fix"). For non-bug work: the need and how it was met.'
       : 'always "".'
   }
-8. requestedBy: a person's name ONLY if the notes say someone asked, requested or reported it; otherwise "". department: from the notes, or from the known people list for that person; otherwise "". Never invent names or departments.
+8. requestedBy: a person's name ONLY if the notes say someone asked, requested or reported it; otherwise "". department: what the notes say about that person (e.g. "BD team head" = "BD") always wins; only if the notes say nothing, use the known people list; otherwise "". Never invent names or departments.
 9. Notes may be Hinglish (Hindi + English, romanized or Devanagari). Always write the output in clear, simple English.
 10. date (dd/mm/yyyy): ${
     i.split
