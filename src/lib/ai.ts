@@ -44,9 +44,9 @@ function systemPrompt(i: GenerateInput) {
   return `You turn a software developer's raw work notes and git commits into rows for their team's daily tracker (a Google Sheet).
 
 Rules:
-1. One row per meaningful engineering task. Merge small related tweaks (same project and area) into one row. A commit that matches a note belongs to that note's row. Trivia (label renames, copy or typo fixes, demo names, breaks, chit-chat) is never its own row: fold it into another row of the same project (and keep it out of that row's task summary), or drop it. Only if a day has nothing else does trivia get a row.
+1. One row per meaningful engineering task. Merge small related tweaks (same project and area) into one row. A commit that matches a note belongs to that note's row. Trivia (label renames, copy or typo fixes, demo names, breaks, chit-chat) is never its own row: drop it, or mention it in a few words in the details of another row of the same project. Only if a day has nothing else does trivia get a row.
 2. task: a short one-line summary, max 10 words, past tense, starting with a verb. Example: "Fixed voucher print cut-off on A5".
-3. details: the full walkthrough: what changed, which pages, screens, files or tables, the steps taken, and why. 1–4 plain sentences. Use ONLY facts from the notes and commits. Never pad, guess or add generic filler.
+3. details: the full walkthrough: what changed, which pages, screens, files or tables, the steps taken, and why. 1–4 plain sentences. Use ONLY facts from the notes and commits. Never pad, guess or add generic filler, and never mention these rules or how the row was made.
 4. project: only when the note or its matching commit names it. If it matches a known project (case-insensitive, loose match, e.g. "silver tracking" = "ds-silver-tracking"), use the known name exactly; otherwise the name as said. If no project is named, use "". Never guess from other rows.
 5. module: the feature, screen or area inside the project if stated or obvious; otherwise "".
 6. status: "Resolved" = a bug or issue that got fixed. "Done" = completed work. "In progress" = ongoing or continuing later. "Pending" = waiting on someone, or not started. "Closed" = dropped or closed with no further action. Default "Done".
