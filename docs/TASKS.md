@@ -43,6 +43,6 @@ Source: `PRD.md` v1.0 · App folder: repo root · Status: `[ ]` todo · `[~]` bu
 
 | ID | Task | PRD | Done when | |
 |---|---|---|---|---|
-| T23 | README (dictated): what it is, how to run it, how Wispr was used | §10 | README in the repo | [ ] |
-| T24 | Demo video ≤ 2:00 following the spec's §11 plan | — | Unlisted YouTube link | [ ] |
+| T23 | README (dictated): what it is, how to run it, how Wispr was used | §10 | README in the repo | [x] |
+| T24 | Demo video ≤ 2:00: silent footage + clips + voiceover script in `../../day_log_video/` (needs a real Wispr clip + voiceover) | — | Unlisted YouTube link | [~] |
 | T25 | Submission: link, video, usage card, description | — | Submitted before Fri 30 Oct, 11:59 pm IST | [ ] |
